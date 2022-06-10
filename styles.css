@@ -1,0 +1,47 @@
+:root{
+    --pink;;
+}
+
+body {
+
+}
+
+h1, h2, h3, h4 {
+
+}
+
+header, main, footer {
+
+}
+/* buttons*/
+a.button {
+    display: inline-block;
+    width: auto;
+    padding: 0.5em 1em;
+    border radius: 1em;
+    text-decoration: none;
+}
+
+
+/*navbar styling */
+#hero nav {
+    display: flex;
+    justify-content: space-between;
+}
+#hero nav ul {
+    list-style-type: none;
+}
+
+#hero nav a {
+    display: block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    color: 
+}
+
+/* style hero unit */
+footer {
+
+}
+
+#tagline
