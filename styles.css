@@ -1,13 +1,11 @@
-:root{
-    --pink;;
-}
+
 
 body {
-
+    
 }
 
 h1, h2, h3, h4 {
-
+     
 }
 
 header, main, footer {
@@ -18,25 +16,41 @@ a.button {
     display: inline-block;
     width: auto;
     padding: 0.5em 1em;
-    border radius: 1em;
+    border-radius: 1em;
     text-decoration: none;
 }
 
 
 /*navbar styling */
-#hero nav {
+nav {
     display: flex;
     justify-content: space-between;
+    background-color: rgb(7, 6, 83);
 }
-#hero nav ul {
+nav ul {
     list-style-type: none;
 }
 
-#hero nav a {
+ nav a {
     display: block;
     padding: 0.5em 1em;
     text-decoration: none;
-    color: 
+    color: lightblue
+}
+#tagline {
+    grid-area: tagline;
+    padding: 1em;
+    align-self: center;
+    background-color: rgba(255,255,255,0.7);
+}
+#hero{
+    background-image: url("images/istockphoto-476396416-612x612.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 5fr 4fr 1fr;
+    grid-template-rows: 40vh;
+    grid-template-areas: ". tagline .";
 }
 
 /* style hero unit */
@@ -44,4 +58,6 @@ footer {
 
 }
 
-#tagline
+#tagline {
+    size: 100px;
+}
